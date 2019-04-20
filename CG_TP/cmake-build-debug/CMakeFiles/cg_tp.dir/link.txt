@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/cg_tp.dir/main.cpp.o CMakeFiles/cg_tp.dir/parser.cpp.o CMakeFiles/cg_tp.dir/extractor.cpp.o CMakeFiles/cg_tp.dir/tinyxml2/tinyxml2.cpp.o  -o cg_tp /usr/lib64/libGLEW.so /usr/lib64/libGL.so /usr/lib64/libGLU.so /usr/lib64/libglut.so /usr/lib64/libXmu.so /usr/lib64/libXi.so 

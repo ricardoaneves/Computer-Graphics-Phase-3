@@ -1,0 +1,4 @@
+/home/ricardo/Universidade/CG2/TrabalhoPratico/Fase3/CG_TP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ricardo/Universidade/CG2/TrabalhoPratico/Fase3/CG_TP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ricardo/Universidade/CG2/TrabalhoPratico/Fase3/CG_TP/cmake-build-debug/CMakeFiles/generator.dir
+/home/ricardo/Universidade/CG2/TrabalhoPratico/Fase3/CG_TP/cmake-build-debug/CMakeFiles/cg_tp.dir

@@ -1,0 +1,205 @@
+<scene>
+
+    <group>
+        <translate X="-210" />
+        <scale X="12" Y="12" Z="12" />
+        <color R="1" G="1" B="0.2" />
+        <models>
+            <model file="sphere.3d" /> -- Sun
+        </models>
+    </group>
+
+    <group>
+        <translate time="0.5" >
+            <point X="-80" Y="0" Z="0" /> -- top
+            <point X="-118" Y="0" Z="92" />
+            <point X="-210" Y="0" Z="130" /> -- right
+            <point X="-302" Y="0" Z="92" />
+            <point X="-340" Y="0" Z="0" /> -- down
+            <point X="-302" Y="0" Z="-92" />
+            <point X="-210" Y="0" Z="-130" /> -- left
+            <point X="-118" Y="0" Z="-92" />
+        </translate>
+        <scale X="0.15" Y="0.15" Z="0.15" />
+        <color R="0.8" G="0.8" B="0.9" />
+        <models>
+            <model file="sphere.3d" /> -- Mercury
+        </models>
+    </group>
+
+    <group>
+        <translate time="1" >
+            <point X="-107.5" Y="0" Z="-102.5" />
+            <point X="-65" Y="0" Z="0" />
+            <point X="-107.5" Y="0" Z="102.5" />
+            <point X="-210" Y="0" Z="145" />
+            <point X="-312.5" Y="0" Z="102.5" />
+            <point X="-355" Y="0" Z="0" />
+            <point X="-312.5" Y="0" Z="-102.5" />
+            <point X="-210" Y="0" Z="-145" />
+        </translate>
+        <scale X="0.25" Y="0.25" Z="0.25" />
+        <color R="1" G="0.7" B="0.5" />
+        <models>
+            <model file="sphere.3d" /> -- Venus
+        </models>
+    </group>
+
+    <group>
+        <translate time="3" >
+            <point X="-210" Y="0" Z="-165" />
+            <point X="-93.3" Y="0" Z="-116.7" />
+            <point X="-45" Y="0" Z="0" />
+            <point X="-93.3" Y="0" Z="116.7" />
+            <point X="-210" Y="0" Z="165" />
+            <point X="-326.7" Y="0" Z="116.7" />
+            <point X="-375" Y="0" Z="0" />
+            <point X="-326.7" Y="0" Z="-116.7" />
+        </translate>
+        <scale X="0.3" Y="0.3" Z="0.3" />
+        <color R="0.1" G="0.3" B="1" />
+        <models>
+            <model file="sphere.3d" /> -- Earth
+        </models>
+        <group>
+            <translate Y="8" Z="-7"/>
+            <scale X="0.15" Y="0.15" Z="0.15" />
+            <color R="1" G="1" B="1" />
+            <models>
+                <model file="sphere.3d" /> -- Moon
+            </models>
+        </group>
+    </group>
+
+    <group>
+        <translate time="4" >
+            <point X="-340.8" Y="0" Z="-130.8" />
+            <point X="-210" Y="0" Z="-185" />
+            <point X="-79.1" Y="0" Z="-130.8" />
+            <point X="-25" Y="0" Z="0" />
+            <point X="-79.1" Y="0" Z="130.8" />
+            <point X="-210" Y="0" Z="185" />
+            <point X="-340.8" Y="0" Z="130.8" />
+            <point X="-395" Y="0" Z="0" />
+        </translate>
+        <scale X="0.2" Y="0.2" Z="0.2" />
+        <color R="1" G="0.6" B="0.3" />
+        <models>
+            <model file="sphere.3d" /> -- Mars
+        </models>
+    </group>
+
+    <group>
+        <translate time="2" >
+            <point X="0" Y="20" Z="-20" />
+            <point X="0" Y="10" Z="-15" />
+            <point X="0" Y="0" Z="-10" />
+            <point X="0" Y="-10" Z="-5" />
+        </translate>
+        <rotate time="0.5" X="10" Y="10" Z="10"/> -- Rotate with time
+        <scale X="0.2" Y="0.2" Z="0.2" />
+        <color R="1" G="0.6" B="0.3" />
+        <models>
+            <model file="box.3d" /> -- Comet
+        </models>
+    </group>
+
+    <group>
+        <translate time="6" >
+            <point X="-460" Y="0" Z="0" />
+            <point X="-386.8" Y="0" Z="-176.8" />
+            <point X="-210" Y="0" Z="-250" />
+            <point X="-33.2" Y="0" Z="-176.8" />
+            <point X="40" Y="0" Z="0" />
+            <point X="-33.2" Y="0" Z="176.8" />
+            <point X="-210" Y="0" Z="250" />
+            <point X="-386.8" Y="0" Z="176.8" />
+        </translate>
+        <scale X="2" Y="2" Z="2" />
+        <color R="0.9" G="0.4" B="0.2" />
+        <models>
+            <model file="sphere.3d" /> -- Jupiter
+        </models>
+    </group>
+
+    <group>
+        <translate time="7" >
+            <point X="-436.3" Y="0" Z="226.3" />
+            <point X="-530" Y="0" Z="0" />
+            <point X="-436.3" Y="0" Z="-226.3" />
+            <point X="-210" Y="0" Z="-320" />
+            <point X="16.3" Y="0" Z="-226.3" />
+            <point X="110" Y="0" Z="0" />
+            <point X="16.3" Y="0" Z="226.3" />
+            <point X="-210" Y="0" Z="320" />
+        </translate>
+        <scale X="2" Y="2" Z="2" />
+        <color R="1" G="0.9" B="0.9" />
+        <models>
+            <model file="sphere.3d" /> -- Saturn
+        </models>
+        <group>
+            <rotate X="1" angle="-10" />
+            <scale X="2" Y="0.02" Z="2" />
+            <color R="0.9" G="0.9" B="1" />
+            <models>
+                <model file="sphere.3d" /> -- Saturn Rings
+            </models>
+        </group>
+    </group>
+
+    <group>
+        <translate time="9" >
+            <point X="-210" Y="0" Z="380" />
+            <point X="-478.7" Y="0" Z="268.7" />
+            <point X="-590" Y="0" Z="0" />
+            <point X="-478.7" Y="0" Z="-268.7" />
+            <point X="-210" Y="0" Z="-380" />
+            <point X="58.7" Y="0" Z="-268.7" />
+            <point X="170" Y="0" Z="0" />
+            <point X="58.7" Y="0" Z="268.7" />
+        </translate>
+        <scale X="1" Y="1" Z="1" />
+        <color R="0.2" G="0.4" B="1" />
+        <models>
+            <model file="sphere.3d" /> -- Uranus
+        </models>
+    </group>
+
+    <group>
+        <translate time="10" >
+            <point X="83.4" Y="0" Z="293.4" />
+            <point X="-210" Y="0" Z="415" />
+            <point X="-503.4" Y="0" Z="293.4" />
+            <point X="-625" Y="0" Z="0" />
+            <point X="-503.4" Y="0" Z="-293.4" />
+            <point X="-210" Y="0" Z="-415" />
+            <point X="83.4" Y="0" Z="-293.4" />
+            <point X="205" Y="0" Z="0" />
+        </translate>
+        <scale X="0.75" Y="0.75" Z="0.75" />
+        <color R="0.4" G="0.6" B="1" />
+        <models>
+            <model file="sphere.3d" /> -- Neptune
+        </models>
+    </group>
+
+    <group>
+        <translate time="12" >
+            <point X="240" Y="0" Z="0" />
+            <point X="108.2" Y="0" Z="318.2" />
+            <point X="-210" Y="0" Z="450" />
+            <point X="-528.2" Y="0" Z="318.2" />
+            <point X="-660" Y="0" Z="0" />
+            <point X="-528.2" Y="0" Z="-318.2" />
+            <point X="-210" Y="0" Z="-450" />
+            <point X="108.2" Y="0" Z="-318.2" />
+        </translate>
+        <scale X="0.1" Y="0.1" Z="0.1" />
+        <color R="0.7" G="0.8" B="1" />
+        <models>
+            <model file="sphere.3d" /> -- Pluto
+        </models>
+    </group>
+
+</scene>

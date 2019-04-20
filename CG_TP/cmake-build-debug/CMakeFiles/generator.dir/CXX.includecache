@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ricardo/Universidade/CG2/TrabalhoPratico/Fase3/CG_TP/generator.cpp
+iostream
+-
+fstream
+-
+math.h
+-
+string.h
+-
+stdlib.h
+-
+
